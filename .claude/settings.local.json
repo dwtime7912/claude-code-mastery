@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(echo '{\"model\":{\"display_name\":\"Claude Sonnet 4.6\"},\"cwd\":\"D:\\\\\\\\Study\\\\\\\\Claude\",\"context_window\":{\"used_percentage\":23}}')",
+      "Bash(bash ~/.claude/statusline-command.sh)",
+      "Bash(python3 -c \"import sys,json; data=json.loads\\(sys.stdin.read\\(\\)\\); print\\(data.get\\('test',''\\)\\)\")",
+      "Bash(echo \"exit: $?\")",
+      "Bash(python -c \"print\\('ok'\\)\")",
+      "Bash(echo '{\"model\":{\"display_name\":\"Claude Sonnet 4.6\"},\"cwd\":\"D:\\\\\\\\Study\\\\\\\\Claude\\\\\\\\JimCoding\\\\\\\\workspace\\\\\\\\claude-code-mastery\",\"context_window\":{\"used_percentage\":23}}')",
+      "Bash(echo '{\"model\":{\"display_name\":\"Claude Sonnet 4.6\"},\"cwd\":\"D:\\\\\\\\test\"}')",
+      "Bash(python -c \"import sys,json; data=json.loads\\(sys.stdin.read\\(\\)\\); print\\(data.get\\('cwd','NOTFOUND'\\)\\)\")",
+      "Bash(python -c ':*)",
+      "Bash(bash -c 'input=$\\(cat\\); echo \"captured: $input\"')"
+    ]
+  }
+}
