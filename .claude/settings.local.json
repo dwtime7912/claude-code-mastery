@@ -10,7 +10,9 @@
       "Bash(echo '{\"model\":{\"display_name\":\"Claude Sonnet 4.6\"},\"cwd\":\"D:\\\\\\\\test\"}')",
       "Bash(python -c \"import sys,json; data=json.loads\\(sys.stdin.read\\(\\)\\); print\\(data.get\\('cwd','NOTFOUND'\\)\\)\")",
       "Bash(python -c ':*)",
-      "Bash(bash -c 'input=$\\(cat\\); echo \"captured: $input\"')"
+      "Bash(bash -c 'input=$\\(cat\\); echo \"captured: $input\"')",
+      "Bash(git checkout:*)",
+      "Bash(git merge:*)"
     ]
   }
 }
